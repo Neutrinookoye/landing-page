@@ -8,10 +8,9 @@
 
 /* Navigation section */
 .navbar-reduce {
-    background: rgba(255, 255 , 255 , .8);
+    background: rgba(255, 255 , 255 , .95);
     backdrop-filter: blur(.5rem);
 }
-
 
 .navbar-toggler {
     position: relative;
@@ -77,6 +76,7 @@
 
 .download-btn a{
     color: #fff;
+    font-weight: normal;
 }
 
 .js-scroll {
@@ -169,6 +169,17 @@
     margin: 10px 0px;
 }
 
+.btn-text2 {
+    padding: 20px 35px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 10px 0px;
+}
 
 
 
@@ -200,8 +211,7 @@
 }
 
 .why-text p {
-    font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 18px;
     line-height: 27px;
 }
@@ -277,6 +287,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
+    font-weight: normal;
 }
 
 
@@ -303,6 +314,7 @@
 
 .testimonial-box p {
     font-size: 18px;
+    font-weight: normal;
     line-height: 27px;
 }
 
@@ -364,25 +376,11 @@
 }
 
 #footer p {
-    font-weight: 600;
+    font-weight: normal;
     font-size: 24px;
     line-height: 36px;
     color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -426,6 +424,22 @@
 }
 
 @media(max-width:576px){
+    .download-btn {
+        border-radius: 5px;
+        height: 40px;
+        width: 100%;
+        padding: .2rem 0 0 1rem;
+        font-weight: 500;
+    }    
+    .js-scroll {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        margin: .8rem 0 0 .9rem;
+    }
+    .download-btn a{
+        font-size: 12px;
+    }    
     .def-header img {
         width: 138px;
     }
@@ -437,6 +451,9 @@
         font-size: 10px;
         line-height: 18px;
     }
+    .btn-text2 {
+        padding: 15px 10px;
+    }    
     .hero-text .btn-text {
         padding: 8px 0px;
         font-size: 11.5px;
